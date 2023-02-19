@@ -71,6 +71,7 @@
                     </execution>
                 </executions>
             </plugin>
+<<<<<<< HEAD
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
@@ -79,6 +80,8 @@
                     <target>8</target>
                 </configuration>
             </plugin>
+=======
+>>>>>>> 124b9030657e5021c1d90ba09373c7523129681c
         </plugins>
     </build>
 

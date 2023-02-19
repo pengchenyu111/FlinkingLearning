@@ -7,7 +7,10 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Flink-Learning" />
+<<<<<<< HEAD
         <module name="FlinkingLearning" />
+=======
+>>>>>>> 124b9030657e5021c1d90ba09373c7523129681c
       </profile>
     </annotationProcessing>
   </component>

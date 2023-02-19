@@ -20,7 +20,11 @@ public class SourceTest {
         textStream.print("textStream");
 
         // 2.从集合中读取数据
+<<<<<<< HEAD
         ArrayList<Event> clicks = new ArrayList<Event>();
+=======
+        ArrayList<Event> clicks = new ArrayList<>();
+>>>>>>> 124b9030657e5021c1d90ba09373c7523129681c
         clicks.add(new Event("Mary", "./home", 1000L));
         clicks.add(new Event("Bob", "./cart", 2000L));
         DataStream<Event> colStream1 = env.fromCollection(clicks);
